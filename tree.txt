@@ -1,0 +1,48 @@
+.
+├── Makefile
+├── MySqlCodespaces.md
+├── README.md
+├── api
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── src
+│   │   ├── app.ts
+│   │   ├── core
+│   │   │   ├── config
+│   │   │   │   └── config.ts
+│   │   │   ├── database
+│   │   │   │   ├── base.repository.ts
+│   │   │   │   └── connection.ts
+│   │   │   ├── middlewares
+│   │   │   │   ├── authentication.ts
+│   │   │   │   ├── authorization.ts
+│   │   │   │   ├── error.ts
+│   │   │   │   └── validation.ts
+│   │   │   └── utils
+│   │   │       ├── AppError.ts
+│   │   │       ├── asyncHandler.ts
+│   │   │       ├── helpers.ts
+│   │   │       ├── logger.ts
+│   │   │       └── responses.ts
+│   │   ├── modules
+│   │   │   ├── categorias
+│   │   │   ├── fabricantes
+│   │   │   ├── perfis
+│   │   │   ├── usuarios
+│   │   │   │   ├── usuarios.controller.ts
+│   │   │   │   ├── usuarios.repository.ts
+│   │   │   │   ├── usuarios.route.ts
+│   │   │   │   ├── usuarios.service.ts
+│   │   │   │   └── usuarios.types.ts
+│   │   │   └── veiculos
+│   │   ├── routes
+│   │   │   ├── index.ts
+│   │   │   └── route.type.ts
+│   │   └── server.ts
+│   └── tsconfig.json
+├── mysql
+│   ├── init.sql
+│   └── seed.sql
+└── tree.txt
+
+16 directories, 30 files
